@@ -15,7 +15,7 @@ $$
 x^2 + y^2 \le r^2 \space (x, y \in \mathbb{N} \; \space x,y < r)
 $$
 
-In the first quadrant of the circle, for each integer pair $(x, y)$ with $0 \le x, y < r$, we check whether it lies inside the circle. Let `P` be the number of pixels that satisfy the inequality above.
+In the first quadrant of the circle, for each integer pair $(x, y)$ with $0 \le x, y < r$, we check whether it lies inside the circle. Let $P$ be the number of pixels that satisfy the inequality above.
 
 $$
 A = 4P

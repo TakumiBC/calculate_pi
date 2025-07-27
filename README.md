@@ -12,10 +12,10 @@ $$
 Later I optimized the implementation, but the principle stayed the same. Let the x-coordinate of a point be $x$, and the y-coordinate be $y$. Then the way to determine whether a point is in the circle is:
 
 $$
-x^2 + y^2 \le r^2 \space (x, y \in \mathbb{N} \; \space x,y < r)
+x^2 + y^2 \le r^2 \space (x, y \in \mathbb{N})
 $$
 
-In the first quadrant of the circle, for each integer pair $(x, y)$ with $0 \le x, y < r$, we check whether it lies inside the circle. Let $P$ be the number of pixels that satisfy the inequality above.
+In the first quadrant of the circle, for each integer pair $(x, y)$ which satisfies $x,y \in [0, r)$, we check whether it lies inside the circle. Let $P$ be the number of pixels that satisfy the inequality above.
 
 $$
 A = 4P
